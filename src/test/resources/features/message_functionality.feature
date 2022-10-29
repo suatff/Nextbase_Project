@@ -1,7 +1,8 @@
 Feature: Message functionality testing
+  #NEXTBASE-1405
   Background: User should be on the login page
     Given user is on the login page
-
+  @NEXTBASE-1406
   Scenario Template: Send a message
     When user enters "<username>","<password>"
     And user clicks to login button
@@ -17,7 +18,7 @@ Feature: Message functionality testing
       | marketing1@cybertekschool.com | UserUser |
       | hr1@cybertekschool.com        | UserUser |
 
-
+  @NEXTBASE-1407
   Scenario Template: Verify "All employees" is default and changable
     When user enters "<username>","<password>"
     And user clicks to login button
@@ -32,7 +33,7 @@ Feature: Message functionality testing
       | helpdesk1@cybertekschool.com  | UserUser |
       | marketing1@cybertekschool.com | UserUser |
       | hr1@cybertekschool.com        | UserUser |
-
+  @NEXTBASE-1408
   Scenario Template: Verify user can able to cancel sending messages at any time before sending
     When user enters "<username>","<password>"
     And user clicks to login button
@@ -49,7 +50,7 @@ Feature: Message functionality testing
       | marketing1@cybertekschool.com | UserUser |
       | hr1@cybertekschool.com        | UserUser |
 
-
+  @NEXTBASE-1409
   Scenario Template: Verify "The message title is not specified" message is displayed
     When user enters "<username>","<password>"
     And user clicks to login button
@@ -66,7 +67,7 @@ Feature: Message functionality testing
       | marketing1@cybertekschool.com | UserUser |
       | hr1@cybertekschool.com        | UserUser |
 
-
+  @NEXTBASE-1410
   Scenario Template: Verify "Please specify att least one person" error message is displayed
     When user enters "<username>","<password>"
     And user clicks to login button
@@ -85,7 +86,7 @@ Feature: Message functionality testing
       | marketing1@cybertekschool.com | UserUser |
       | hr1@cybertekschool.com        | UserUser |
 
-
+  @NEXTBASE-1411
   Scenario Template: Verify options for recipient groups is displayed and selectable
     When user enters "<username>","<password>"
     And user clicks to login button
@@ -102,7 +103,7 @@ Feature: Message functionality testing
       | marketing1@cybertekschool.com | UserUser |
       | hr1@cybertekschool.com        | UserUser |
 
-
+  @NEXTBASE-1412
   Scenario Template: Verify options for recipient groups is displayed and selectable
     When user enters "<username>","<password>"
     And user clicks to login button
