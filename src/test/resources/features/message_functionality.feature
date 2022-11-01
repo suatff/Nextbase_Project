@@ -1,3 +1,4 @@
+@NEXTBASE-1413
 Feature: Message functionality testing
   #NEXTBASE-1405
   Background: User should be on the login page
